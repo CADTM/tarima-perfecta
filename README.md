@@ -21,19 +21,6 @@ Juego arcade 3D de paletizado en un almacén. Las cajas de producto terminado va
 - **Turnos:** cada 2 tarimas sube la altura de la estiba (30 cm → 2.10 m), cambia el escenario y la caída se acelera.
 - **Cascos:** tienes 3; cada derrumbe quita uno y cada tarima embarcada devuelve uno.
 
-## Publicar en GitHub Pages
-
-1. Crea un repositorio nuevo llamado `tarima-perfecta`.
-2. Sube estos archivos (`index.html`, `README.md`, `.nojekyll`) a la rama `main`.
-3. En el repositorio ve a **Settings → Pages**.
-4. En **Source** elige **Deploy from a branch**, rama `main`, carpeta `/ (root)` y guarda.
-5. En uno o dos minutos el juego queda en `https://CADTM.github.io/tarima-perfecta/`.
-
-## Técnico
-
-- Un solo archivo HTML, sin compilación.
-- 3D con [three.js r128](https://threejs.org/) desde cdnjs; tipografías de Google Fonts.
-- El récord se guarda en el navegador de cada jugador (`localStorage`).
 
 ---
 
